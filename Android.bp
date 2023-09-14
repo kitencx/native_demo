@@ -1,0 +1,14 @@
+cc_binary {
+    name: "surface_demo",
+    srcs: [
+        "surface_demo.cpp"
+    ],
+    shared_libs: [
+        "libcutils",
+        "libutils",
+        "libbinder",
+        "liblog",
+        "libui",
+        "libgui"
+    ]
+}
